@@ -14,8 +14,8 @@ b = (p2 / 100)
 c = (p11 / 100)
 d = (p21 / 100)
 
-s1 = ((x1*(pow(a**2, 1/3))) - (x2*(pow(b**2, 1/3))))
-s2 = ((x11*(pow(c**2, 1/3))) - (x21*(pow(d**2, 1/3))))
+s1 = ((a*(pow(x1**2, 1/3))) - (b*(pow(x2**2, 1/3))))
+s2 = ((c*(pow(x11**2, 1/3))) - (d*(pow(x21**2, 1/3))))
 
 
 print("\nla opcion 1 queda de la siguiente manera:\nGanar ", x1," con ", p1, " de probabilidad o perder ", x2, " con ", p2, " de probabilidad ")
